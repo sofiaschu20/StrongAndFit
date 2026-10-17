@@ -182,7 +182,7 @@ function Hero() {
             build strength you can feel in everything you do.
           </p>
           <div className="hero-actions">
-            <a href="#join" className="btn">
+            <a href="#join" className="btn btn-orange">
               Start your 12 weeks
             </a>
             <a href="#program" className="btn btn-ghost">

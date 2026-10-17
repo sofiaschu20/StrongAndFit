@@ -6,6 +6,8 @@
   --plum-soft: #5b4a5c;
   --cream: #fffaf7;
   --line: #f0dfe3;
+  --orange: #f57c20;
+  --orange-dark: #d9650f;
   --radius: 20px;
   --shadow: 0 20px 50px -20px rgba(45, 27, 46, 0.25);
   --serif: 'Fraunces', Georgia, serif;
@@ -111,6 +113,17 @@ a {
   background: var(--plum);
   border-color: var(--plum);
   color: #fff;
+}
+
+.btn-orange {
+  background: var(--orange);
+  border-color: var(--orange);
+}
+
+.btn-orange:hover {
+  background: var(--orange-dark);
+  border-color: var(--orange-dark);
+  box-shadow: 0 10px 25px -10px rgba(245, 124, 32, 0.7);
 }
 
 .btn-small {
